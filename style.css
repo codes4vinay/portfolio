@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght300&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    background-color: rgb(152, 151, 151);
+    /* width: 240px; */
+    font-family: 'Fira Sans', sans-serif;
+    height: 100vh;
+    color: black;
+    transition: transform 0.3s ease-in;
+}
+
+.sidebar nav {
+    padding: 45px;
+}
+
+.sidebar nav li {
+    list-style: none;
+    font-size: 25px;
+    padding: 33px 0;
+}
+
+.sidebar nav li a {
+    text-decoration: none;
+}
+
+.main {
+    /* background-color: yellow; */
+    width: 90vw;
+}
+
+.container {
+    display: flex;
+
+}
+
+.infoContainer {
+    /* background-color: rgb(255, 0, 170); */
+    height: 60vh;
+    width: 80vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.hello {
+    font-size: 60px;
+}
+
+.name {
+    font-size: 50px;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: bold;
+}
+
+.about {
+    font-size: 40px;
+}
+
+.moreabout {
+    margin-top: 23px;
+    font-size: 28px;
+}
+
+.buttons {
+    margin-top: 30px;
+}
+
+.buttons button {
+    padding: 9px 14px;
+    border-radius: 22px;
+    color: white;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size: 21px;
+    margin: 0 3px;
+    cursor: pointer;
+}
+
+.buttons button:hover {
+    background-color: white;
+    color: dodgerblue;
+}
+
+.devPic img {
+    height: 50vh;
+    justify-content: center;
+}
+
+
+
+.contactform {
+    padding: 0 34px;
+    padding-top: 100px;
+    font-family: 'Fira Sans', sans-serif;
+    border-radius: 15px;
+    font-size: 30px;
+}
+
+.contactform h1 {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 50px;
+    text-align: center;
+}
+
+.contactform div {
+    padding: 25px 0;
+}
+
+.contactform button {
+    padding: 9px 14px;
+    border-radius: 22px;
+    color: white;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size: 21px;
+    margin: 0 3px;
+    cursor: pointer;
+}
+
+.contactform button:hover {
+    background-color: yellow;
+    color: dodgerblue;
+}
+
+.about2 h1 {
+    font-family: 'Fira Sans', sans-serif;
+    margin: 20px;
+}
+
+.about2 p {
+    font-family: 'Source Code Pro', monospace;
+    font-size: large;
+    margin: 22px;
+}
+
+.skillscontainer {
+    padding: 12px;
+}
+
+.skill {
+    width: 255px;
+    height: 23px;
+    background-color: rgb(0, 195, 255);
+    border-radius: 20px;
+    margin: 22px;
+}
+
+.skillitem {
+    display: flex;
+    align-items: center;
+    font-family: 'Source Code Pro', monospace;
+    font-size: medium;
+}
+
+.hundred {
+    width: 1215px;
+}
+
+.fifty {
+    width: 625px;
+}
+
+.t5 {
+    width: 310px;
+}
+.sidebarGo{
+        transform: translate(-443px, 0px);
+        position: absolute;
+}
+.ham{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+.cross{
+    margin-left: 55px;
+}
+
+@media (max-width: 1485px) {
+    /* .sidebar {
+        transform: translate(-443px, 0px);
+        position: absolute;
+    } */
+}
